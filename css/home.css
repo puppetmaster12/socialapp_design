@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body
+{
+    background-color: #d3d3d3;
+}
+.container-fluid{
+  border-radius: 0;
+}
+.navbar-login
+{
+    width: 305px;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.navbar-login-session
+{
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.icon-size
+{
+    font-size: 87px;
+}
+
+/*SEARCH OPTION*/
+.search-form-wrap
+{
+    margin-top: 5px;
+}
+.search-bar
+{
+   outline: none;
+}
+input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none;
+}
+input[type=search] {
+	background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+	border: solid 1px #ccc;
+	padding: 9px 10px 9px 32px;
+	width: 55px;
+
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+input[type=search]:focus {
+	width: 230px;
+	background-color: #fff;
+	border-color: #fdf5e6;
+
+	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+input:-moz-placeholder {
+	color: #999;
+}
+input::-webkit-input-placeholder {
+	color: #999;
+}
+
+/* Demo 2 */
+#search-bar
+{
+    outline: none;
+}
+#search-bar input[type=search] {
+	width: 15px;
+	padding-left: 10px;
+	color: transparent;
+	cursor: pointer;
+  outline: none;
+}
+#search-bar input[type=search]:hover {
+	background-color: #fff;
+}
+#search-bar input[type=search]:focus {
+	width: 230px;
+	padding-left: 32px;
+	color: #000;
+	background-color: #fff;
+	cursor: auto;
+}
+#search-bar input:-moz-placeholder {
+	color: transparent;
+}
+#search-bar input::-webkit-input-placeholder {
+	color: transparent;
+}
+/*MAIN CONTENT*/
+/*UPDATES SECTION LEFT*/
+.updates
+{
+    max-width: 300px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
+.update-content
+{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 260px;
+    height: 1.5em;
+    white-space: nowrap;
+    margin-top: 10px;
+}
+.updates-section
+{
+    max-width: 300px;
+    padding: 10px 10px 10px 10px;
+}
+.updates-header
+{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+.updates-post-header
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.updates-post-img
+{
+   display: block;
+   width: 100%;
+}
+/*POSTS SECTION CENTER*/
+.post-button
+{
+   float: right;
+}
+.post-form
+{
+   background-color: #fff;
+   height: 100px;
+   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
+.post-form .form-group
+{
+    padding: 10px 10px 10px 10px;
+}
+.post-form input[type='text']
+{
+    margin-bottom: 10px;
+}
+.post-image, .post-video
+{
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #000;
+}
+/*POSTS CENTER*/
+.post-all{
+  width: 100%;
+}
+.post-single
+{
+    max-width: 600px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    margin-top: 20px;
+}
+.post-pic-wrap
+{
+    text-align: center;
+}
+.post-pic
+{
+    padding: 1px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #d3d3d3;
+}
+.post-text
+{
+    margin: 0 15px 10px 15px;
+    text-align: justify;
+}
+.post-date
+{
+    margin: 5px 5px 5px 5px;
+    padding: 0 0 5px 5px;
+
+}
