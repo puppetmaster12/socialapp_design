@@ -2,7 +2,7 @@
 <head>
 
   <meta charset="UTF-8">
-  <link rel="icon" href="Images/Logo.png" type="image/png" sizes="16x16"> </head>
+  <link rel="icon" href="Img/Logo.png" type="image/png" sizes="16x16"> </head>
   <title>b Social- Login/Sign-In</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
